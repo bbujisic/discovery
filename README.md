@@ -11,7 +11,7 @@ relationship-explorer ENV_VAR_NAME <type>.<name>.var.name
 
 ## Example
 
->>> PLATFORM_RELATIONSHIPS: A base64-encoded JSON object whose keys are the relationship name and the values are arrays of relationship endpoint definitions.
+> PLATFORM_RELATIONSHIPS: A base64-encoded JSON object whose keys are the relationship name and the values are arrays of relationship endpoint definitions.
 
 Given the following `PLATFORM_RELATIONSHIPS`:
 

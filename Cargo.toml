@@ -2,6 +2,8 @@
 name = "relationship-explorer"
 version = "0.1.0"
 authors = ["Daniel Morante <daniel@platform.sh>"]
+readme = "README.md"
+license = "BSD-2-Clause"
 
 [dependencies]
 base64 = "0.7.0"

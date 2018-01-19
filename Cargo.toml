@@ -4,8 +4,11 @@ version = "0.1.0"
 authors = ["Daniel Morante <daniel@platform.sh>"]
 readme = "README.md"
 description = "Prints a value from a base64 encoded JSON in an environmental variable."
-extended-description = "Prints out the requested value from a base64 encoded JSON data structure that's stored in an environmental variable."
+
 license = "BSD-2-Clause"
+
+[package.metadata.deb]
+extended-description = "Prints out the requested value from a base64 encoded JSON data structure that's stored in an environmental variable."
 
 [dependencies]
 base64 = "0.7.0"

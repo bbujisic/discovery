@@ -37,7 +37,10 @@ fn main() {
     
     // Pick out the server we wish to grab the data from
 	for service_detail in relashionships_json[serice_type].members() {
-		if service_detail["service"] == service_name {
+		// Index can be either 'service', 'rel', or 'scheme'
+		let index_name = if !service_detail["service"].is_null() { "service" } else if !service_detail["rel"].is_null() { "rel" } else { "scheme" };
+		
+		if service_detail[index_name] == service_name {
 			// I don't know any better way to handle this :-(
 			result = get_element(service_detail.clone(), &mut json_service_search_path_vector);	
 			break;	

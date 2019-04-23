@@ -1,10 +1,10 @@
-Source: relationship-explorer
+Source: discovery
 Maintainer: Daniel Morante <daniel@platform.sh>
 Section: misc
 Priority: optional
 Build-Depends: debhelper (>=9), cargo
 Standards-Version: 4.1.1
 
-Package: relationship-explorer
+Package: discovery
 Architecture: all
 Description: Prints a value from a base64 encoded JSON in an environmental variable.

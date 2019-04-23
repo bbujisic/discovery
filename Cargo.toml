@@ -1,5 +1,5 @@
 [package]
-name = "relationship-explorer"
+name = "discovery"
 version = "0.1.0"
 authors = ["Daniel Morante <daniel@platform.sh>"]
 readme = "README.md"

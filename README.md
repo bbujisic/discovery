@@ -1,4 +1,4 @@
-# Relationship Explorer
+# Discovery
 
 Prints out the requested value from a base64 encoded JSON data structure that's
 stored in an environmental variable.
@@ -6,7 +6,7 @@ stored in an environmental variable.
 ## Usage
 
 ```
-relationship-explorer ENV_VAR_NAME <type>.<name>.var.name
+discovery ENV_VAR_NAME <type>.<name>.var.name
 ```
 
 ## Example
@@ -65,5 +65,5 @@ You can obtain the **username** from the `database` service named `mysql` using 
 
 
 ```
-relationship-explorer PLATFORM_RELATIONSHIPS database.mysql.username
+discovery PLATFORM_RELATIONSHIPS database.mysql.username
 ```
